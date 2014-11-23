@@ -58,7 +58,7 @@ This then sets the stage for completing the tidying up the data.
 
 ### Code Book ###
 #### Script Variables ####
-##### Key Data Frames #####
+##### Data Frames #####
 | Data Frame	            | File/Purpose                                      |
 | ------------------------- | ------------------------------------------------- |
 | df\_activity	            | Is loaded by y\_test.txt, y\_train.txt              |
@@ -68,7 +68,7 @@ This then sets the stage for completing the tidying up the data.
 | df\_features	            | Is loaded by features.txt                         |
 | df\_allTest	            | Merge of Test Subject, Activity, Observations     |
 | df\_allTrain	            | Merge of Training Subject, Activity, Observations | 
-| d\f_All	                | rbind() of df\_allTest and df\_allTrain             |
+| df\_All	                | rbind() of df\_allTest and df\_allTrain             |
 | df\_AllSummarized	        | Final Output                                      |
 
 ##### Additional Variables #####
@@ -84,7 +84,7 @@ This then sets the stage for completing the tidying up the data.
 | ----------------- | --------------------------------------- |
 | newCols.txt       | My modified column names.               |
 
-##### Additional Libaries Required #####
+##### Additional Libraries Required #####
 | Library Name      | Purpose                                 |
 | ----------------- | --------------------------------------- |
 | dplyr             | Need for select()                       |
@@ -95,7 +95,7 @@ This then sets the stage for completing the tidying up the data.
 
 ### Description of Observation Variables ###
 
-Below is the UCI download file’s  features_info.txt, and describes the variables (all 561 of them) and the logic used in naming them.  Not all details of the authors were obvious to me, but at least some cleaning up of the column names could be decided upon.
+Here is the UCI download file’s features_info.txt, which describes the variables (all 561 of them) and the authors used in naming them.  Not all details of the authors were obvious to me, but at least some cleaning up of the column names could be decided upon.
 
  <blockquote style="font-size:14px;">
 Feature Selection
