@@ -75,7 +75,7 @@ This then sets the stage for completing the tidying up the data.
 | Variable	        | Data Type	          | Purpose                         |
 | ------------------| ------------------- | ------------------------------- |
 | featureColNames   | Character vector    | Used to apply column names      |
-| fil\_<zzzz\>\_text | Character	          | Several of these used for file names for read.table(), to load source data |
+| fil\_&lt;zzzz&gt;\_text | Character	          | Several of these used for file names for read.table(), to load source data |
 | numObs            | integer             | Used to hold row counts          | 
 | newColNames       | Data Frame          | Used to load improved column names. |
 
